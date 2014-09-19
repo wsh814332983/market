@@ -1,0 +1,40 @@
+SuperMarket
+Table：Merchandise
+          	
+SequenceNumber	    int	       4	 
+MerchandiseNumber  varchar    20	 
+TreatyCode	    varchar    20	exp：tx321SP000001
+SortNumber	    char       10	foreign key
+MerchandiseName    varchar    50
+RetailPrice        money      8
+MerchandiseSpec    varchar    50	 allow null
+Units              varchar    20
+PurchasePrice	    money      8
+CheckTerm	    numeric    9	 
+Remark		    varchar    50	
+
+----------------------------------------------------------------------------------------------------------------------
+
+
+
+-SortID		     int        4	  primary
+SortNumber	     char       10	 exp：SP0001
+SortName	     varchar    20	      	 
+
+
+
+seafood：SX1001
+food：SP1002
+vegetable：SG1003
+appliance：DQ1004
+daily use：RY1005
+gift：LP1006
+
+------------------------------------------------------------------------------------------------------------------------
+
+
+用户表名：UserManger
+说明：			 字段：		     类型：	长度：	  备注：
+用户名-------------------UserName            varchar	20	  主键
+密码---------------------Password            varchar	20	  
+用户等级-----------------UserGrade	     varchar	20	

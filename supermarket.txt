@@ -1,0 +1,29 @@
+   
+         BackSaletable
+BackSale_ID---------varchar-----10---primary
+BackDate---------varchar--------50
+Product_ID------varchar------50-------primary
+Number--------numeric-------9---------
+Price----------varchar-------8--------
+ProductName------varchar-----20--------
+ProductManufacturer-----varchar-----50-----
+BackPerson------------varchar-------50------
+CommonClient-----------varchar------10------
+VIP_ID----------------varchar-------10-----
+SuperMarket--------varchar----------50--------
+reason------------varchar-----------250------
+
+         Sale
+Sale_ID--------varchar------10-----------------primay
+Product_ID-----varchar-------10-----------------forgein
+SaleDate--------varchar------50----------------
+Number----------numeric-------9-----------------
+Price------------money---------8---------
+Discount---------int-----------4-----
+VIP_ID------------varchar-------10---------------
+Shroff------------varchar--------10-------------
+CommonClient------varchar---------10------------
+ProductName--------varchar---------50-----------
+ProductSort---------varchar---------50--------
+
+
